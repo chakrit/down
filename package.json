@@ -1,6 +1,6 @@
 {
   "name": "down",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Yes, staring at your console while github's down is definitely time well spent. Oh, and it works with other site too!",
   "main": "down.js",
   "scripts": {
