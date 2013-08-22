@@ -1,0 +1,34 @@
+{
+  "name": "down",
+  "version": "0.1.0",
+  "description": "Yes, staring at your console while github's down is definitely time well spent. Oh, and it works with other site too!",
+  "main": "down.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "bin": {
+    "down": "down.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:chakrit/down.git"
+  },
+  "keywords": [
+    "down",
+    "up",
+    "status",
+    "github",
+    "harvest"
+  ],
+  "author": "Chakrit Wichian <service@chakrit.net> (http://chakrit.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chakrit/down/issues"
+  },
+  "dependencies": {
+    "request": "~2.27.0",
+    "colors": "~0.6.2",
+    "optimist": "~0.6.0",
+    "abbrev": "~1.0.4"
+  }
+}
