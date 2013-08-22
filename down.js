@@ -18,11 +18,12 @@ var targets = optimist
   .demand(1).argv._;
 
 targets.forEach(function start(service) {
-  service = abbr[service];
-  if (!service) {
+  if (!(service in abbr)) {
     console.error("Unknown service: " + service);
     return false;
   }
+
+  service = abbr[service];
 
   var checker = checkers[service];
   setImmediate(function checkOnce() {
