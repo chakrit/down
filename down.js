@@ -31,6 +31,7 @@ targets.forEach(function start(service) {
     checker(function(e, result, message) {
       var tag = e ? '  ERR '.red : result ? '   UP '.green : ' DOWN '.red;
 
+      message = e && e.message || message;
       console.log(tag + '[' + service + '] ' + message);
       setTimeout(checkOnce, 1000);
     });
