@@ -8,7 +8,8 @@ var abbrev = require('abbrev')
 
 var checkers = { github: github, harvest: harvest }
   , services = Object.keys(checkers)
-  , abbr = abbrev(services);
+  , abbr = abbrev(services)
+  , immediate = typeof setImmediate === 'function' ? setImmediate : process.nextTick;
 
 abbr.gh = 'github';
 abbr.hv = 'harvest';
@@ -26,7 +27,7 @@ targets.forEach(function start(service) {
   service = abbr[service];
 
   var checker = checkers[service];
-  setImmediate(function checkOnce() {
+  immediate(function checkOnce() {
     checker(function(e, result, message) {
       var tag = e ? '  ERR '.red : result ? '   UP '.green : ' DOWN '.red;
 
