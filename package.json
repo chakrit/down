@@ -7,7 +7,7 @@
     "test": "make test"
   },
   "bin": {
-    "down": "down.js"
+    "down": "lib/down.js"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,8 @@
     "request": "~2.27.0",
     "colors": "~0.6.2",
     "optimist": "~0.6.0",
-    "abbrev": "~1.0.4"
+    "abbrev": "~1.0.4",
+    "xrequire": "~0.4.0",
+    "feedparser": "~0.16.3"
   }
 }
