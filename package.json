@@ -26,11 +26,11 @@
     "url": "https://github.com/chakrit/down/issues"
   },
   "dependencies": {
-    "request": "~2.27.0",
-    "colors": "~0.6.2",
-    "optimist": "~0.6.0",
-    "abbrev": "~1.0.4",
-    "xrequire": "~0.4.0",
-    "feedparser": "~0.16.3"
+    "abbrev": "^1.0.5",
+    "colors": "^1.0.3",
+    "feedparser": "^0.19.2",
+    "optimist": "^0.6.1",
+    "request": "^2.51.0",
+    "xrequire": "^0.4.0"
   }
 }
