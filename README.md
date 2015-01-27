@@ -32,6 +32,13 @@ $ down hv
     height="15" alt="WTFPL" />
 </a>
 
+# SERVICES
+
+* circleci (http://status.circleci.com/history.atom)
+* facebook (https://www.facebook.com/feeds/api_status.php)
+* github (https://status.github.com/api/last-message.json)
+* harvest (http://harveststatus.com/status.json)
+
 # TODO:
 
 * More services
