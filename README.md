@@ -38,6 +38,7 @@ $ down hv
 * facebook (https://www.facebook.com/feeds/api_status.php)
 * github (https://status.github.com/api/last-message.json)
 * harvest (http://harveststatus.com/status.json)
+* slack (https://status.slack.com)
 
 # TODO:
 
